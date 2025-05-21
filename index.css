@@ -1,0 +1,23 @@
+p {
+    font-family: fantasy;
+    font-size: 12px;
+}
+body {
+    background-color: #800080; 
+}
+.subtitle {
+    color: black;
+    font-style: bold;
+}
+img {
+    padding: 10px 50px 20px;
+    margin: 10px 50px 20px;
+    background-color: black;
+}
+button {
+    background-color: grey;
+    cursor:grab;
+}
+button:hover {
+    background-color: aliceblue;
+}
