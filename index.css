@@ -1,6 +1,7 @@
 p {
     font-family: fantasy;
-    font-size: 12px;
+    font-size: 15px;
+    text-align: center;
 }
 body {
     background-color: #FFFFFF; 
@@ -8,10 +9,19 @@ body {
 .subtitle {
     color: black;
     font-style: bold;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
 }
 img {
     padding: 10px 50px 20px;
-    margin: 10px 50px 20px;
+    display: block;
+    margin: auto;
+    width: 50%;
     background-color: black;
 }
 button {
@@ -20,4 +30,13 @@ button {
 }
 button:hover {
     background-color: aliceblue;
+}
+#centerbuttons {
+  font-family: open-sans;
+  font-size: 14px;
+  font-weight: bold;
+  border-color: #cfcfcf;
+  text-transform: uppercase;
+  text-align: center !important;
+  line-height: 0 !important;
 }
