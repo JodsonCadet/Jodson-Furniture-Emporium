@@ -15,6 +15,7 @@ h1 {
     text-align: center;
     animation: mySlide;
     animation-iteration-count: infinite;
+    animation-delay: 3ms;
     animation-duration: 5s;
 }
 h2 {
