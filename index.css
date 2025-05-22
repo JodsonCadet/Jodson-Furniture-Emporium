@@ -13,10 +13,11 @@ body {
 }
 h1 {
     text-align: center;
-    animation: mySlide;
+    animation: myRotate;
     animation-iteration-count: infinite;
     animation-delay: 3ms;
     animation-duration: 5s;
+    
 }
 h2 {
     text-align: center;
@@ -47,7 +48,10 @@ button:hover {
   line-height: 0 !important;
 }
 */
-@Keyframes mySlide {
+/*@Keyframes mySlide {
    from{margin-left: 100%;}
    to{margin-left: 0%;}
+}*/
+@Keyframes myRotate {
+    100%{transform: rotateX(360deg)}
 }
