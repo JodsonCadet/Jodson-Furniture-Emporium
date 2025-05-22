@@ -1,5 +1,5 @@
 p {
-    font-family: fantasy;
+    font-family: "Press Start 2" ,"fantasy";
     font-size: 15px;
     text-align: center;
 }
@@ -13,31 +13,40 @@ body {
 }
 h1 {
     text-align: center;
+    animation: mySlide;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
 }
 h2 {
     text-align: center;
 }
 img {
     padding: 10px 50px 20px;
-    display: block;
+    display:block;
     margin: auto;
     width: 30%;
     height: 30%;
-    background-color: black;
+    background-color: black; 
 }
 button {
     background-color: grey;
     cursor:grab;
+    
 }
 button:hover {
     background-color: aliceblue;
 }
-#centerbuttons {
-  font-family: open-sans;
+/*#centerbuttons {
+  font-family: "open-sans";
   font-size: 14px;
   font-weight: bold;
   border-color: #cfcfcf;
   text-transform: uppercase;
   text-align: center !important;
   line-height: 0 !important;
+}
+*/
+@Keyframes mySlide {
+   from{margin-left: 100%;}
+   to{margin-left: 0%;}
 }
